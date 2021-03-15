@@ -16,7 +16,7 @@ $titleMaxWidth: 875px;
         align-items: center;
         grid-template-columns: $logoMaxWidth minmax($titleMinWidth, $titleMaxWidth);
         justify-content: flex-start;
-        font-size: 8rem;
+        font-size: 8rem; 
 
         display: grid;
         align-items: center;
