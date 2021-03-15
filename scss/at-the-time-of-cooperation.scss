@@ -60,3 +60,32 @@
         }
     }
 }
+
+@media screen and (max-width: 650px) {
+    .at-the-time-of-cooperation {
+
+        &__title {
+            font-size: 4rem;
+        }
+
+
+        .grid-container {
+            margin: 25px auto 0 auto;
+            grid-row-gap: 15px;
+
+            &__item {
+                font-size: 2rem;
+                line-height: 2.5rem;
+                position: relative;
+                max-width: 75%;
+
+            }
+
+            &__img {
+                left: -50px;
+                height: 30px;
+                width: 30px;
+            }
+        }
+    }
+}
