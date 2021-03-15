@@ -1,0 +1,27 @@
+.reasons-for-inefficiency {
+    max-width: 90%;
+    margin: auto;
+
+    &__title {
+        margin: 0 !important;
+        font-size: 6rem !important;
+    }
+
+    .epicrisis {
+        color: #fff;
+        font-size: 1.5rem;
+        display: block;
+        margin-top: 50px;
+        margin-left: 65px;
+
+        position: relative;
+
+        .ex-mark {
+            font-size: 11rem;
+            position: absolute;
+            top: -45px;
+            left: -65px;
+            color: #2FFFFF;
+        }
+    }
+}

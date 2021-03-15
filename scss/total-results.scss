@@ -1,0 +1,90 @@
+.total-results {
+    max-width: 90%;
+    margin: auto;
+
+    &__title {
+        margin: 0;
+        font-size: 6rem;
+    }
+
+    .grid-container {
+        display: grid !important;
+        height: 100% !important;
+        max-width: 100% !important;
+        grid-template-columns: repeat(auto-fit, minmax(100px, 250px)) !important;
+        justify-content: space-between !important;
+        grid-row-gap: 50px !important;
+        margin: 70px 0 0 0 !important;
+
+        &__item {
+            position: relative !important;
+            max-width: initial !important;
+            background: transparent !important;
+            border: none !important;
+            transition: box-shadow .2s linear, -webkit-box-shadow .2s linear !important;
+            line-height: 1.9rem !important;
+            font-size: 1.5rem !important;
+
+            &:hover {
+                box-shadow: none;
+            }
+
+            &-title {
+                margin: 15px 0;
+                font-size: 2rem;
+            }
+        }
+    }
+
+}
+
+@media screen and (max-width: 1300px) {
+    .total-results {
+        margin-top: 50px;
+
+
+        &__title {
+            margin: 0;
+        }
+
+        .empty {
+            display: none;
+        }
+    }
+}
+
+@media screen and (max-width: 768px) {
+    .total-results {
+
+        .grid-container {
+            grid-template-columns: 1fr;
+            grid-row-gap: 0px !important;
+        }
+    }
+}
+
+@media screen and (max-width: 650px) {
+    .total-results {
+
+        &__title {
+            font-size: 5rem !important;
+            max-width: 100% !important;
+        }
+
+        .grid-container {
+            font-size: 2.5rem !important;
+            line-height: 3rem !important;
+
+            &__item {
+                font-size: 2.5rem !important;
+                line-height: 3rem !important;
+
+                &-title,
+                .grid-container__desc {
+                    font-size: 2.5rem !important;
+                    line-height: 3rem !important;
+                }
+            }
+        }
+    }
+}

@@ -1,0 +1,44 @@
+.total {
+    max-width: 90% !important;
+    margin: 85px auto 0 auto !important;
+    position: relative;
+
+    &__overlay {
+        position: absolute;
+        height: 115vh;
+        width: 111.5%;
+        left: -6%;
+        right: 0;
+        top: 20%;
+        bottom: 0;
+        margin: auto;
+        z-index: 0;
+        background: #272727;
+    }
+
+    &__title {
+        margin: 0 !important;
+        font-size: 6rem !important;
+        z-index: 1;
+        position: relative;
+    }
+
+    &__content-container {
+        color: #fff;
+        grid-template-columns: repeat(auto-fit, minmax(100px, 570px)) !important;
+        max-width: 100% !important;
+        justify-content: space-between !important;
+        z-index: 1;
+        position: relative;
+    }
+
+    .schedule {
+        font-size: 2rem !important;
+        padding-left: 30px !important;
+    }
+
+    .schedule-img {
+        max-width: 100%;
+    }
+
+}
