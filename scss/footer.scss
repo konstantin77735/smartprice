@@ -4,11 +4,6 @@
     width: 90%;
     margin: 50px auto 0 auto;
 
-    .logo {
-        font-size: 2rem;
-        color: #fff;
-        text-decoration: none;
-    }
 
     .arrow {
         width: 100%;
@@ -36,6 +31,13 @@
     .footer:nth-of-type(1) {
         margin: 150px auto 0 auto !important;
     }
+
+        /*use it*/
+    .footer {
+        .logo {
+            max-width: 100px;
+        }
+    }
 }
 
 @media screen and (max-width: 1000px) {
@@ -59,7 +61,10 @@
         width: 85%;
         margin: 0 auto;
 
-
+        /* use it! */
+        .logo{
+            max-width: 55px;
+        }
 
         .arrow {
             max-width: 70%;
@@ -77,14 +82,12 @@
 }
 
 @media screen and (max-width: 450px) {
-    .footer:nth-of-type(1){
-         margin: 50px auto 0 auto !important;
+    .footer:nth-of-type(1) {
+        margin: 50px auto 0 auto !important;
     }
-    
-    .footer{
-        .logo{
-            font-size: 3rem;
-        }
+
+    .footer {
+        .logo {}
     }
 }
 
