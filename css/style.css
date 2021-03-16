@@ -1,5 +1,4 @@
 
-
 @charset "UTF-8";
 
 /* find-a-specialist: */
@@ -563,6 +562,10 @@ body {
   background: linear-gradient(to left, #1FFF94, #00FFFF);
   -webkit-background-clip: text;
   -webkit-text-fill-color: transparent;
+}
+
+.text_no-br {
+  white-space: nowrap;
 }
 
 .bg_gradient {

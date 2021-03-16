@@ -133,6 +133,11 @@ body {
         -webkit-background-clip: text;
         -webkit-text-fill-color: transparent;
     }
+    
+    &_no-br{
+        white-space: nowrap;
+    }
+    
 }
 
 .bg_gradient {
